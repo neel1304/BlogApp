@@ -10,3 +10,11 @@ i.icon{
 #delete{
     display:inline;
 }
+
+.footer-center{
+    margin: auto;
+}
+
+#footer-para{
+    align-items: center;
+}
