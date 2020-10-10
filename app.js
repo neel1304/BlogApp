@@ -37,7 +37,7 @@ app.get("/blogs",function(req,resp)
     {
         if(error)
         {
-            console.log(error);
+            console.log("error "+error + " in executing the code");
         }
         else
         {
@@ -129,7 +129,7 @@ app.delete("/blogs/:id",function(req,resp)
 
 
 
-app.listen(process.env.PORT,process.env.IP,function()
+app.listen(8000,function()
 {
    console.log("server is running"); 
 });
